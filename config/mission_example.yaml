@@ -1,0 +1,22 @@
+# Public example only. Set frames, transforms, safety limits, and vehicle
+# parameters in a reviewed deployment configuration; do not commit test-track
+# coordinates, calibration data, or generated marker results.
+uav_takeoff_landing:
+  ros__parameters:
+    enable_vehicle_commands: false
+    marker_detection_topic: /marker_detections
+    landing_target_topic: /uav/landing_target
+    event_topic: /cooperative_mission/events
+    landing_marker_id: 0
+    marker_timeout_seconds: 2.0
+    allow_coordinate_fallback: false
+    takeoff_local_ned_z: -5.0
+    takeoff_tolerance: 0.7
+    handshake_setpoint_count: 10
+
+cooperative_mission_controller:
+  ros__parameters:
+    event_topic: /cooperative_mission/events
+    uav_command_topic: /uav/mission_command
+    ugv_command_topic: /ugv/mission_command
+    aruco_command_topic: /aruco/mission_command

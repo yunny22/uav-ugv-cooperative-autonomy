@@ -1,0 +1,22 @@
+# ROS 2 / Python build products
+build/
+install/
+log/
+**/__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Runtime captures and generated outputs
+*.bag
+*.db3
+*.mcap
+*.ulg
+recordings/
+results/
+runtime/
+**/detected_markers.csv
+
+# Local/editor configuration
+.env
+.vscode/
+.idea/
