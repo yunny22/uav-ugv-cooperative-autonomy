@@ -162,8 +162,8 @@ approved deployment configuration.
 ## Team / Credits
 
 This was a team project. The original development tree originated from a shared
-utility repository, and its public license/redistribution permission is still
-under review. This staging repository is a selective, parameterized release
-candidate rather than a copy of the original workspace. See
+utility repository, but this staging repository is a selective, parameterized
+release rather than a copy of the original workspace. Team publication consent
+is confirmed, and no separate open-source reuse license is granted. See
 [PUBLIC_RELEASE_NOTES.md](PUBLIC_RELEASE_NOTES.md) and
 [docs/TEAM_CREDITS.md](docs/TEAM_CREDITS.md).
