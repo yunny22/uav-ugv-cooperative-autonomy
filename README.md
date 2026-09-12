@@ -4,7 +4,7 @@ This repository is provided for portfolio and research demonstration purposes.
 No separate open-source reuse license is granted; third-party dependencies keep
 their own terms.
 
-This is a public-release **staging** repository for a ROS 2, PX4, and Gazebo
+This is a curated public release for a ROS 2, PX4, and Gazebo
 UAV–UGV cooperative autonomous mission. It preserves the personal UAV
 takeoff/landing and mission-integration scope as a small, public-safe package;
 team-owned UGV waypoint, UAV waypoint, and ArUco detector implementations are
@@ -162,8 +162,8 @@ approved deployment configuration.
 ## Team / Credits
 
 This was a team project. The original development tree originated from a shared
-utility repository, but this staging repository is a selective, parameterized
-release rather than a copy of the original workspace. Team publication consent
+utility repository, but this curated public release is a selective, parameterized
+package rather than a copy of the original workspace. Team publication consent
 is confirmed, and no separate open-source reuse license is granted. See
 [PUBLIC_RELEASE_NOTES.md](PUBLIC_RELEASE_NOTES.md) and
 [docs/TEAM_CREDITS.md](docs/TEAM_CREDITS.md).
