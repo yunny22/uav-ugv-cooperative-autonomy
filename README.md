@@ -61,7 +61,7 @@ The source evidence for the original independent validation sequence includes:
 - a landing-stage command gated by a fresh marker result,
 - PX4 `NAV_LAND`, followed by a separately gated disarm step.
 
-The staging adapter defaults to `enable_vehicle_commands: false`. It must not
+The public adapter defaults to `enable_vehicle_commands: false`. It must not
 be treated as a vehicle-ready controller without a reviewed transform chain,
 vehicle safety logic, and hardware validation.
 

@@ -1,4 +1,4 @@
-# Public Release Notes — Staging Only
+# Public Release Notes
 
 ## Source Selection
 
@@ -18,7 +18,7 @@ merged automatically.
 
 The final source relation supports the integrated launch, mission controller,
 independent takeoff/landing node, and team-owned waypoint/detector modules.
-This staging package retains a public-safe rewrite of the mission state flow,
+This public release retains a public-safe rewrite of the mission state flow,
 PX4 command boundary, marker-gated landing-policy interface, and launch
 templates. It is not a byte-for-byte snapshot of the shared workspace.
 
@@ -87,7 +87,7 @@ Third-party dependency terms remain in force.
 
 ## Sanitization
 
-The staging scan found no original absolute home paths, private network values,
+The release scan found no original absolute home paths, private network values,
 ROS domain/DDS settings, serial-device paths, camera calibration, track
 coordinates, runtime marker CSV, model weights, recordings, or vendor source.
 The only email address is the non-routable release-review placeholder in package
@@ -95,13 +95,13 @@ metadata.
 
 ## Validation
 
-Completed staging checks: Python syntax compilation; six pure-Python tests;
+Completed release checks: Python syntax compilation; six pure-Python tests;
 package metadata and `colcon build`; launch-description argument generation for
 both public launch files; README relative-link checks; and a public-surface scan
 for original absolute paths, network values, domain/DDS configuration,
 credentials, generated marker data, and large binaries. No original
 machine-specific value or excluded runtime artifact is present. Hardware, PX4
-SITL, and Gazebo mission runs are not part of this staging validation.
+SITL, and Gazebo mission runs are not part of this release validation.
 
 ## Remaining Issues
 
