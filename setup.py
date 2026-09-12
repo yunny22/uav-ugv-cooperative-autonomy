@@ -22,7 +22,7 @@ setup(
     maintainer="Public release staging",
     maintainer_email="release-review-required@example.invalid",
     description="Public-safe UAV–UGV mission-integration staging package.",
-    license="LicenseRef-Pending-Review",
+    license="LicenseRef-Pending-Selection",
     entry_points={
         "console_scripts": [
             "mission_controller = uav_ugv_mission.mission_controller:main",

@@ -6,8 +6,9 @@ takeoff/landing and mission-integration scope as a small, public-safe package;
 team-owned UGV waypoint, UAV waypoint, and ArUco detector implementations are
 represented as interfaces rather than copied source.
 
-> **Release status:** do not publish this repository until ownership,
-> contributor attribution, and the upstream license are approved. See
+> **Release status:** do not publish this repository until a project license is
+> selected. Team consent is confirmed; source from team waypoint and detector
+> subsystems is intentionally excluded. See
 > [PUBLIC_RELEASE_NOTES.md](PUBLIC_RELEASE_NOTES.md).
 
 ## Overview
@@ -105,8 +106,8 @@ deployment configuration.
 - **ArUco detection:** team-developed subsystem whose output is consumed by
   the landing integration.
 
-Contributor names and permission for public excerpts must be confirmed before
-publication; see [docs/TEAM_CREDITS.md](docs/TEAM_CREDITS.md).
+The team has approved publication of the retained source. Contributor boundaries
+are recorded in [docs/TEAM_CREDITS.md](docs/TEAM_CREDITS.md).
 
 ## Result
 

@@ -43,7 +43,7 @@ These are documented as interfaces and credits, not as personal implementations.
 
 | Source area | Classification | Public-release handling |
 |---|---|---|
-| `takeoff_land_test.py` | FINAL / PERSONAL | Behavior retained as a parameterized adapter; source ownership still needs release approval. |
+| `takeoff_land_test.py` | FINAL / PERSONAL | Behavior retained as a parameterized adapter; team publication consent is confirmed. |
 | `mission_control_node.py` | FINAL / PERSONAL | Mission-event behavior retained as a reduced controller. |
 | `asp_mission_stack.launch.py` | FINAL / CO-DEVELOPED | Replaced by a minimal launch template; original was an uncommitted integrated launch. |
 | `waypoint_mission.py` | FINAL / TEAM | Excluded; documented through command/event boundaries. |
@@ -75,12 +75,15 @@ These are documented as interfaces and credits, not as personal implementations.
 
 ## Upstream / License Review
 
-**Blocker before GitHub publication:** the original `robot_control` package
-declares `TODO: License declaration`, while the primary working tree has an
-external upstream origin and includes team subsystems. Confirm redistribution
-permission from the upstream owner and agreement on team attribution before
-changing this staging repository's license or making it public. The package
-currently uses `LicenseRef-Pending-Review` deliberately.
+The current public tree contains no byte-for-byte copy of the upstream
+`utilities_pkg` implementation, no UGV/UAV waypoint implementation, and no
+ArUco detector implementation. It is a curated rewrite containing only the
+takeoff/landing and mission-integration interfaces. PX4, Gazebo, ROS 2, OpenCV
+and message packages are dependencies rather than vendored source.
+
+Team publication consent is confirmed. The remaining blocker is a project
+license selection for the curated code; the package deliberately uses
+`LicenseRef-Pending-Selection` until that choice is approved.
 
 ## Sanitization
 
@@ -102,9 +105,6 @@ SITL, and Gazebo mission runs are not part of this staging validation.
 
 ## Remaining Issues
 
-1. Obtain written approval for the upstream source and each team subsystem.
-2. Replace the review-only license and placeholder maintainer metadata after
-   approval.
-3. Confirm final contributor names and credit wording.
-4. Review any future vehicle-specific transforms, safety parameters, simulator
+1. Select and apply a project license for the curated source.
+2. Review any future vehicle-specific transforms, safety parameters, simulator
    assets, or media separately before adding them.
