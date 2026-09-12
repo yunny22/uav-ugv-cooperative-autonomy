@@ -81,9 +81,9 @@ ArUco detector implementation. It is a curated rewrite containing only the
 takeoff/landing and mission-integration interfaces. PX4, Gazebo, ROS 2, OpenCV
 and message packages are dependencies rather than vendored source.
 
-Team publication consent is confirmed. The remaining blocker is a project
-license selection for the curated code; the package deliberately uses
-`LicenseRef-Pending-Selection` until that choice is approved.
+Team publication consent is confirmed. Package metadata is `UNLICENSED` because
+this portfolio repository grants no separate open-source reuse license.
+Third-party dependency terms remain in force.
 
 ## Sanitization
 
@@ -105,6 +105,5 @@ SITL, and Gazebo mission runs are not part of this staging validation.
 
 ## Remaining Issues
 
-1. Select and apply a project license for the curated source.
-2. Review any future vehicle-specific transforms, safety parameters, simulator
+1. Review any future vehicle-specific transforms, safety parameters, simulator
    assets, or media separately before adding them.

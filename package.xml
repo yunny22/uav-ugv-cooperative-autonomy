@@ -5,7 +5,7 @@
   <version>0.1.0</version>
   <description>Public-safe ROS 2/PX4 mission-integration staging package for a UAV–UGV cooperative mission.</description>
   <maintainer email="release-review-required@example.invalid">Public release staging</maintainer>
-  <license>LicenseRef-Pending-Selection</license>
+  <license>UNLICENSED</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
   <depend>rclpy</depend>

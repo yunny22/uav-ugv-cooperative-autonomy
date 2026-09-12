@@ -1,15 +1,14 @@
 # UAV–UGV Cooperative Autonomous System
 
+This repository is provided for portfolio and research demonstration purposes.
+No separate open-source reuse license is granted; third-party dependencies keep
+their own terms.
+
 This is a public-release **staging** repository for a ROS 2, PX4, and Gazebo
 UAV–UGV cooperative autonomous mission. It preserves the personal UAV
 takeoff/landing and mission-integration scope as a small, public-safe package;
 team-owned UGV waypoint, UAV waypoint, and ArUco detector implementations are
 represented as interfaces rather than copied source.
-
-> **Release status:** do not publish this repository until a project license is
-> selected. Team consent is confirmed; source from team waypoint and detector
-> subsystems is intentionally excluded. See
-> [PUBLIC_RELEASE_NOTES.md](PUBLIC_RELEASE_NOTES.md).
 
 ## Overview
 
