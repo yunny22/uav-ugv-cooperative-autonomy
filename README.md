@@ -10,6 +10,9 @@ takeoff/landing and mission-integration scope as a small, public-safe package;
 team-owned UGV waypoint, UAV waypoint, and ArUco detector implementations are
 represented as interfaces rather than copied source.
 
+Course-provided simulator assets, maps, base packages, and team-owned subsystem
+implementations are not redistributed in this repository.
+
 ## Overview
 
 The team developed subsystem functions independently, then connected them as a
